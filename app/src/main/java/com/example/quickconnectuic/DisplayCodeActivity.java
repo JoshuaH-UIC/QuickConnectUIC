@@ -18,10 +18,7 @@ public class DisplayCodeActivity extends AppCompatActivity {
     //private ImageView qrImage;
     private ImageView codeDisplayImage;
     SharedPreferences sharedPreferences;
-    int smallerDimension = 1000; // TODO - Change to scale dynamically
-
-
-    //sharedPreferences.edit().putString("userInfo", profileDescription).commit();
+    int smallerDimension = 1000;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
